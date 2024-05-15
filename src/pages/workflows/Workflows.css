@@ -1,0 +1,130 @@
+.workflowsection {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  background: whitesmoke;
+}
+
+.faPlusCircle {
+  font-size: 30px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.faPlusCircle:hover {
+  color: rgb(11, 11, 194);
+}
+
+.faSearch {
+  color: #ccc;
+}
+
+.faAngleDown {
+  color: #ccc;
+}
+
+.workflowRight-searchAndFilter {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 80vw;
+  gap: 15px;
+}
+
+.workflowNamesIp {
+  padding: 10px;
+  padding-left: 35px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon .faSearch {
+  position: absolute;
+  left: 10px; /* adjust this based on icon size */
+  top: 50%;
+  transform: translateY(-50%);
+}
+.inputWithIcon .faAngleDown {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.workflowTable {
+  margin-top: 20px;
+}
+
+.workflowTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.workflowTable th,
+.workflowTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.workflowTable th {
+  background-color: #f2f2f2;
+}
+
+.workflowTable input[type="checkbox"] {
+  margin: 0;
+}
+
+.statusBar {
+  width: 100px;
+  height: 10px;
+  background-color: #ddd;
+  position: relative;
+}
+
+.statusProgress {
+  width: 50%;
+  height: 100%;
+  background-color: #4caf50;
+}
+
+.options {
+  position: relative;
+  display: inline-block;
+}
+
+.optionsContent {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+  top: calc(100% + 5px);
+  max-height: 200px;
+  overflow-y: auto;
+}
+.statusBarTableData {
+  border: 1px solid #ddd;
+  padding: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.optionsContent p {
+  color: #333;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.options:hover .optionsContent {
+  display: block;
+}

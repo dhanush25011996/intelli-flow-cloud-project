@@ -1,0 +1,81 @@
+.dashBoard{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    background: whitesmoke;
+}
+.dashBoard-container{
+    height: 100vh;
+    width: 82vw;
+    padding: 10px;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background-color: #fff;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    height: 20vh;
+    margin-top: 15px;
+}
+.div1 p{
+    font-size: 22px;
+} 
+.get-start-btn{
+    background-color: darkblue;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border: 2px solid black;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 16px;
+    cursor: pointer;
+    height: 40px;
+    
+}
+.subdiv1{
+    width: 45vw;
+    height: 68vh;
+    background-color: #fff;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+.right-div{
+    height: 68vh;
+    width: 35vw;
+}
+.subdiv2, .subdiv3{
+    height: 49%;
+    background-color: #fff;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.business-name-card{
+    position: absolute;
+    top: 4rem;
+    left: 18rem;
+    background-color: #fff;
+    padding: 1rem 0.5rem;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.business-name-card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.free-btn{
+    height: auto;
+    padding: 5px 8px;
+}
